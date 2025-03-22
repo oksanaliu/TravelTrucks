@@ -59,8 +59,10 @@ const Catalog = () => {
         ? camperType === filters.vehicleType
         : true;
 
-      const matchEquipment = filters.selectedEquipment.every(
-        (eq) => camper[eq] === true
+      const matchEquipment = filters.selectedEquipment.every((eq) =>
+        Object.keys(camper).some(
+          (key) => key.toLowerCase() === eq && camper[key] === true
+        )
       );
 
       return matchLocation && matchType && matchEquipment;
