@@ -2,6 +2,18 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styles from './Filters.module.css';
 
+const vehicleTypesMap = {
+  Van: 'panelTruck',
+  'Fully Integrated': 'fullyIntegrated',
+  Alcove: 'alcove',
+};
+
+const reverseVehicleTypesMap = {
+  panelTruck: 'Van',
+  fullyIntegrated: 'Fully Integrated',
+  alcove: 'Alcove',
+};
+
 const Filters = () => {
   const navigate = useNavigate();
   const { search } = useLocation();
@@ -13,14 +25,19 @@ const Filters = () => {
   useEffect(() => {
     const params = new URLSearchParams(search);
     setLocation(params.get('location') || '');
-    setVehicleType(params.get('vehicleType') || '');
     setEquipment(params.get('equipment')?.split(',') || []);
+    setVehicleType(params.get('vehicleType') || '');
   }, [search]);
 
   const handleToggleEquipment = (item) => {
     setEquipment((prev) =>
       prev.includes(item) ? prev.filter((e) => e !== item) : [...prev, item]
     );
+  };
+
+  const handleVehicleTypeClick = (label) => {
+    const value = vehicleTypesMap[label];
+    setVehicleType((prev) => (prev === value ? '' : value));
   };
 
   const handleSubmit = (e) => {
@@ -68,16 +85,16 @@ const Filters = () => {
       <div className={styles.section}>
         <p className={styles.sectionTitle}>Vehicle type</p>
         <div className={styles.options}>
-          {['Van', 'Fully Integrated', 'Alcove'].map((type) => (
+          {Object.entries(vehicleTypesMap).map(([label, value]) => (
             <button
               type="button"
-              key={type}
-              onClick={() => setVehicleType(type)}
+              key={value}
+              onClick={() => handleVehicleTypeClick(label)}
               className={`${styles.filterBtn} ${
-                vehicleType === type ? styles.active : ''
+                vehicleType === value ? styles.active : ''
               }`}
             >
-              {type}
+              {label}
             </button>
           ))}
         </div>
