@@ -1,13 +1,19 @@
 import axios from 'axios';
 
-const API_URL = 'https://66b1f8e71ca8ad33d4f5f63e.mockapi.io/campers';
+const BASE_URL = 'https://66b1f8e71ca8ad33d4f5f63e.mockapi.io/campers';
 
 export const getCampers = async () => {
-  const response = await axios.get(API_URL);
-  return response.data;
+  try {
+    const res = await axios.get(BASE_URL);
+    console.log('>>> API response data:', res.data); // консоль
+    return Array.isArray(res.data?.items) ? res.data.items : [];
+  } catch (error) {
+    console.error('>>> Error while fetching campers:', error);
+    return [];
+  }
 };
 
 export const getCamperById = async (id) => {
-  const response = await axios.get(`${API_URL}/${id}`);
-  return response.data;
+  const res = await axios.get(`${BASE_URL}/${id}`);
+  return res.data;
 };

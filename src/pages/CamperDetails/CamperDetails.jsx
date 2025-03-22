@@ -27,7 +27,7 @@ const CamperDetails = () => {
         <Link to="features">Features</Link>
         <Link to="reviews">Reviews</Link>
       </div>
-      <Outlet />
+      <Outlet context={camperDetails} />
     </div>
   );
 };

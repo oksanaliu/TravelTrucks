@@ -1,0 +1,547 @@
+
+> traveltrucks@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v6.2.2  ready in 128 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+10:20:14 [vite] (client) page reload src/main.jsx
+10:21:47 [vite] (client) page reload src/main.jsx
+10:29:52 [vite] (client) hmr update /src/router/AppRouter.jsx
+10:31:27 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+10:34:01 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+10:36:06 [vite] (client) page reload src/services/api.js
+10:37:18 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+10:45:11 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+11:01:45 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:02:48 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:05:40 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:06:50 [vite] (client) hmr update /src/styles/global.css
+11:08:10 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:09:32 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:09:45 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:09:51 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:09:59 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:15:34 [vite] (client) hmr update /src/styles/global.css
+11:17:03 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:17:12 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:17:29 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:17:39 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:17:58 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:18:59 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:19:16 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:19:23 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:23:32 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:23:32 [vite] (client) Pre-transform error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+11:23:33 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:23:33 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:23:33 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:24:39 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:24:40 [vite] (client) Pre-transform error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+11:24:40 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:24:40 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:24:40 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:1: Unknown word Inter
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Home/Home.module.css:1:0
+  1  |  Inter
+     |  ^
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:25:07 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:25:47 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:25:59 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:25:59 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:29:02 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:30:15 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:31:56 [vite] (client) hmr update /src/styles/global.css
+11:36:10 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:36:39 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:37:10 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:39:57 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:40:08 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:40:22 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:41:22 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:42:23 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:43:14 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:44:28 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:45:49 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:45:54 [vite] (client) hmr update /src/styles/global.css
+11:46:05 [vite] (client) hmr update /src/pages/Home/Home.jsx
+11:47:41 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:48:06 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:48:06 [vite] Internal server error: Failed to resolve import "../../assets/images/logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:48:06 [vite] Internal server error: Failed to resolve import "../../assets/images/logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:48:06 [vite] Internal server error: Failed to resolve import "../../assets/images/logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:49:15 [vite] (client) hmr update /src/App.jsx
+11:49:15 [vite] (client) Pre-transform error: Failed to resolve import "../../assets/images/Logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/Logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+11:49:15 [vite] Internal server error: Failed to resolve import "../../assets/images/Logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/Logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:49:16 [vite] Internal server error: Failed to resolve import "../../assets/images/Logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/Logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:49:16 [vite] Internal server error: Failed to resolve import "../../assets/images/Logo.svg" from "src/components/Header/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.jsx:2:17
+  16 |  }
+  17 |  import { Link, NavLink } from "react-router-dom";
+  18 |  import logo from "../../assets/images/Logo.svg";
+     |                    ^
+  19 |  import styles from "./Header.module.css";
+  20 |  const Header = () => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:49:28 [vite] (client) hmr update /src/App.jsx
+11:49:34 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:49:34 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:49:55 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:50:57 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:51:46 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:51:46 [vite] (client) Pre-transform error: [postcss] /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.module.css:17:5: Unknown word weigh
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.module.css:17:4
+  15 |      align-items: center;
+  16 |      margin-right: 450px;
+  17 |      weigh
+     |      ^
+  18 |  }
+  19 |  
+11:51:47 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.module.css:17:5: Unknown word weigh
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.module.css:17:4
+  15 |      align-items: center;
+  16 |      margin-right: 450px;
+  17 |      weigh
+     |      ^
+  18 |  }
+  19 |  
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:51:47 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.module.css:17:5: Unknown word weigh
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Header/Header.module.css:17:4
+  15 |      align-items: center;
+  16 |      margin-right: 450px;
+  17 |      weigh
+     |      ^
+  18 |  }
+  19 |  
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:437:12)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:52:04 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:52:14 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:52:57 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:54:00 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:54:43 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:55:51 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:57:02 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:57:07 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:57:07 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:57:12 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:57:37 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:57:46 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:58:41 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:59:02 [vite] (client) hmr update /src/components/Header/Header.jsx
+11:59:39 [vite] (client) hmr update /src/components/Header/Header.jsx
+12:00:48 [vite] (client) hmr update /src/components/Header/Header.jsx
+12:01:55 [vite] (client) hmr update /src/components/Header/Header.jsx
+12:03:31 [vite] (client) hmr update /src/components/Header/Header.jsx
+12:03:47 [vite] (client) hmr update /src/styles/global.css
+12:04:07 [vite] (client) hmr update /src/styles/global.css
+12:04:53 [vite] (client) hmr update /src/styles/global.css
+12:04:53 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/styles/global.css:7:13: Unknown word --accent-red
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/styles/global.css:7:12
+  5  |      --gray-dark: #DADDE1;
+  6  |      --gray-light: #F2F4F7;
+  7  |      --gray- --accent-red: #E44848;
+     |              ^
+  8  |      --accent-red-hover: #D84343;
+  9  |      --accent-yellow: #FFC531;
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.decl (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:236:16)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+12:04:53 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/styles/global.css:7:13: Unknown word --accent-red
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/styles/global.css:7:12
+  5  |      --gray-dark: #DADDE1;
+  6  |      --gray-light: #F2F4F7;
+  7  |      --gray- --accent-red: #E44848;
+     |              ^
+  8  |      --accent-red-hover: #D84343;
+  9  |      --accent-yellow: #FFC531;
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.decl (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:236:16)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+12:04:53 [vite] Internal server error: [postcss] /Users/oksanaluklan/TravelTrucks/src/styles/global.css:7:13: Unknown word --accent-red
+  Plugin: vite:css
+  File: /Users/oksanaluklan/TravelTrucks/src/styles/global.css:7:12
+  5  |      --gray-dark: #DADDE1;
+  6  |      --gray-light: #F2F4F7;
+  7  |      --gray- --accent-red: #E44848;
+     |              ^
+  8  |      --accent-red-hover: #D84343;
+  9  |      --accent-yellow: #FFC531;
+      at Input.error (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/input.js:113:16)
+      at Parser.unknownWord (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:595:22)
+      at Parser.decl (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:236:16)
+      at Parser.other (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:401:18)
+      at Parser.parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parser.js:472:16)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/parse.js:11:12)
+      at new LazyResult (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/lazy-result.js:165:16)
+      at Processor.process (/Users/oksanaluklan/TravelTrucks/node_modules/vite/node_modules/postcss/lib/processor.js:53:14)
+      at compileCSS (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:49137:59)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:48318:11)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+12:05:27 [vite] (client) hmr update /src/styles/global.css
+12:09:52 [vite] (client) hmr update /src/styles/global.css
+12:10:14 [vite] (client) hmr update /src/styles/global.css
+12:10:58 [vite] (client) hmr update /src/pages/Home/Home.jsx
+12:11:37 [vite] (client) hmr update /src/pages/Home/Home.jsx
+12:11:53 [vite] (client) hmr update /src/pages/Home/Home.jsx
+12:13:12 [vite] (client) hmr update /src/components/Header/Header.jsx
+12:13:41 [vite] (client) hmr update /src/components/Header/Header.jsx
+12:15:44 [vite] (client) page reload index.html
+12:15:53 [vite] (client) page reload index.html
+12:32:08 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:32:46 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:32:59 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:33:08 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:34:50 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:35:07 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:36:12 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:36:16 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+12:43:25 [vite] (client) page reload src/features/filtersSlice.js
+12:46:49 [vite] (client) page reload src/features/filtersSlice.js
+12:47:54 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+12:48:25 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+12:51:08 [vite] (client) page reload src/services/api.js
+12:51:17 [vite] (client) page reload src/features/campersSlice.js
+12:52:11 [vite] (client) page reload src/features/filtersSlice.js
+12:53:01 [vite] (client) page reload src/features/filtersSlice.js
+12:54:43 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+12:56:36 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+12:56:59 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+13:01:14 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+13:44:53 [vite] (client) page reload src/features/filtersSlice.js
+13:45:05 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+13:45:19 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+13:45:41 [vite] (client) page reload src/services/api.js
+13:46:44 [vite] (client) page reload src/services/api.js
+13:48:51 [vite] (client) page reload src/features/campersSlice.js
+13:51:20 [vite] (client) page reload src/features/filtersSlice.js
+13:51:46 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+13:52:04 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+13:54:15 [vite] (client) hmr update /src/components/Footer/Footer.jsx
+13:57:15 [vite] (client) page reload src/features/filtersSlice.js
+13:58:03 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+13:58:24 [vite] (client) page reload src/services/api.js
+14:00:25 [vite] (client) page reload src/features/campersSlice.js
+14:05:15 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+14:16:33 [vite] (client) page reload src/features/filtersSlice.js
+14:24:52 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+14:26:03 [vite] (client) page reload src/services/api.js
+14:27:15 [vite] (client) page reload src/services/api.js
+14:27:56 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+14:32:39 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+14:32:56 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+14:37:24 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+14:40:50 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+14:46:38 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+14:46:44 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+15:09:14 [vite] (client) page reload src/services/api.js
+15:10:11 [vite] (client) page reload src/services/api.js
+15:10:57 [vite] (client) page reload src/features/campersSlice.js
+15:12:15 [vite] (client) page reload src/services/api.js
+15:12:25 [vite] (client) page reload src/features/campersSlice.js
+15:49:04 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+15:49:17 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+15:49:27 [vite] (client) page reload src/features/campersSlice.js
+15:49:31 [vite] (client) page reload src/services/api.js
+16:06:33 [vite] (client) page reload src/features/campersSlice.js
+16:08:53 [vite] (client) page reload src/features/campersSlice.js
+16:17:29 [vite] (client) page reload src/features/campersSlice.js
+16:18:45 [vite] (client) page reload src/services/api.js
+16:19:46 [vite] (client) page reload src/services/api.js
+16:20:42 [vite] (client) page reload src/services/api.js
+16:21:14 [vite] (client) page reload src/features/campersSlice.js
+16:34:35 [vite] (client) page reload src/features/campersSlice.js
+16:34:45 [vite] (client) page reload src/services/api.js
+16:35:28 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+16:37:36 [vite] (client) page reload src/services/api.js
+16:37:50 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+17:25:51 [vite] (client) page reload src/features/campersSlice.js
+17:25:59 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+17:26:06 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+17:28:58 [vite] (client) page reload src/features/campersSlice.js
+17:29:05 [vite] (client) page reload src/services/api.js
+18:02:55 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+18:03:28 [vite] (client) page reload src/services/api.js
+18:16:12 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+18:16:46 [vite] (client) page reload src/features/campersSlice.js
+18:16:53 [vite] (client) page reload src/services/api.js
+18:19:04 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+18:19:20 [vite] (client) page reload src/services/api.js
+18:19:25 [vite] (client) page reload src/features/campersSlice.js
+18:26:21 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+18:30:12 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+19:01:47 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+19:06:51 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+19:23:23 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+19:25:39 [vite] (client) page reload src/services/api.js
+19:26:44 [vite] (client) page reload src/features/campersSlice.js
+19:28:09 [vite] (client) page reload src/services/api.js
+19:31:44 [vite] (client) page reload src/services/api.js
+19:31:54 [vite] (client) page reload src/features/filtersSlice.js
+19:32:01 [vite] (client) page reload src/features/campersSlice.js
+19:32:12 [vite] (client) hmr update /src/components/Footer/Footer.jsx
+19:32:30 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+19:33:00 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+19:33:29 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx

@@ -1,19 +1,26 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import logo from '../../assets/icons/Logo.svg';
+import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="container">
-        <Link to="/" className="logo">
-          TravelTrucks
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <Link to="/">
+          <img
+            src={logo}
+            alt="TravelTrucks Logo"
+            className={styles.logo}
+          />{' '}
         </Link>
-        <nav className="nav">
-          <Link to="/catalog" className="nav-link">
+
+        <nav className={styles.nav}>
+          <NavLink to="/" className={styles.link}>
+            Home
+          </NavLink>
+          <NavLink to="/catalog" className={styles.link}>
             Catalog
-          </Link>
-          <Link to="/favorites" className="nav-link">
-            Favorites
-          </Link>
+          </NavLink>
         </nav>
       </div>
     </header>

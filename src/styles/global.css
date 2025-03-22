@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --dark-main: #101828;
+    --dark-muted: #475467;
+    --dark-soft: #6C717B;
+
+    --accent-red: #E44848;
+    --accent-red-hover: #D84343;
+    --accent-yellow: #FFC531;
+
+    --gray: #DADDE1;
+    --gray-light: #F2F4F7;
+    --gray-soft: #F7F7F7;
+
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
