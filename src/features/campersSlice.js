@@ -5,7 +5,8 @@ export const fetchCampers = createAsyncThunk(
   'campers/fetchCampers',
   async (_, { rejectWithValue }) => {
     try {
-      return await getCampers();
+      const data = await getCampers();
+      return data;
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -16,21 +17,30 @@ export const fetchCamperDetails = createAsyncThunk(
   'campers/fetchCamperDetails',
   async (id, { rejectWithValue }) => {
     try {
-      return await getCamperById(id);
+      const data = await getCamperById(id);
+      return data;
     } catch (error) {
       return rejectWithValue(error.message);
     }
   }
 );
 
+const initialState = {
+  campers: [],
+  camperDetails: null,
+  status: 'idle',
+  error: null,
+};
+
 const campersSlice = createSlice({
   name: 'campers',
-  initialState: { campers: [], camperDetails: {}, status: 'idle', error: null },
+  initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
       .addCase(fetchCampers.pending, (state) => {
         state.status = 'loading';
+        state.error = null;
       })
       .addCase(fetchCampers.fulfilled, (state, action) => {
         state.status = 'succeeded';
@@ -40,7 +50,13 @@ const campersSlice = createSlice({
         state.status = 'failed';
         state.error = action.payload;
       })
+
+      .addCase(fetchCamperDetails.pending, (state) => {
+        state.status = 'loading';
+        state.error = null;
+      })
       .addCase(fetchCamperDetails.fulfilled, (state, action) => {
+        state.status = 'succeeded';
         state.camperDetails = action.payload;
       })
       .addCase(fetchCamperDetails.rejected, (state, action) => {
