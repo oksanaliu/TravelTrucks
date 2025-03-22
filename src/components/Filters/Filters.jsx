@@ -1,17 +1,19 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styles from './Filters.module.css';
+import cup_hotIcon from '../../assets/icons/cup-hot.svg';
+import ui_radiosIcon from '../../assets/icons/ui-radios.svg';
+import hugeicons_gas_stoveIcon from '../../assets/icons/hugeicons_gas-stove.svg';
+import tvIcon from '../../assets/icons/tv.svg';
+import ph_showerIcon from '../../assets/icons/ph_shower.svg';
+import bi_grid_1x2Icon from '../../assets/icons/bi_grid-1x2.svg';
+import bi_grid_3x3_gapIcon from '../../assets/icons/bi_grid-3x3-gap.svg';
+import bi_gridIcon from '../../assets/icons/bi_grid.svg';
 
 const vehicleTypesMap = {
   Van: 'panelTruck',
   'Fully Integrated': 'fullyIntegrated',
   Alcove: 'alcove',
-};
-
-const reverseVehicleTypesMap = {
-  panelTruck: 'Van',
-  fullyIntegrated: 'Fully Integrated',
-  alcove: 'Alcove',
 };
 
 const Filters = () => {
@@ -51,6 +53,24 @@ const Filters = () => {
     navigate(`/catalog?${params.toString()}`);
   };
 
+  const equipmentButtons = [
+    { label: 'AC', icon: cup_hotIcon },
+    { label: 'Automatic', icon: ui_radiosIcon },
+    { label: 'Kitchen', icon: hugeicons_gas_stoveIcon },
+    { label: 'TV', icon: tvIcon },
+    { label: 'Bathroom', icon: ph_showerIcon },
+  ];
+
+  const vehicleButtons = [
+    { label: 'Van', value: 'panelTruck', icon: bi_grid_1x2Icon },
+    {
+      label: 'Fully Integrated',
+      value: 'fullyIntegrated',
+      icon: bi_grid_3x3_gapIcon,
+    },
+    { label: 'Alcove', value: 'alcove', icon: bi_gridIcon },
+  ];
+
   return (
     <form className={styles.filters} onSubmit={handleSubmit}>
       <label className={styles.label}>
@@ -67,16 +87,15 @@ const Filters = () => {
       <div className={styles.section}>
         <p className={styles.sectionTitle}>Vehicle equipment</p>
         <div className={styles.options}>
-          {['AC', 'Automatic', 'Kitchen', 'TV', 'Bathroom'].map((item) => (
+          {equipmentButtons.map(({ label, icon }) => (
             <button
               type="button"
-              key={item}
-              onClick={() => handleToggleEquipment(item)}
-              className={`${styles.filterBtn} ${
-                equipment.includes(item) ? styles.active : ''
-              }`}
+              key={label}
+              onClick={() => handleToggleEquipment(label)}
+              className={`${styles.filterBtn} ${equipment.includes(label) ? styles.active : ''}`}
             >
-              {item}
+              <img src={icon} alt={label} className={styles.icon} />
+              {label}
             </button>
           ))}
         </div>
@@ -85,15 +104,14 @@ const Filters = () => {
       <div className={styles.section}>
         <p className={styles.sectionTitle}>Vehicle type</p>
         <div className={styles.options}>
-          {Object.entries(vehicleTypesMap).map(([label, value]) => (
+          {vehicleButtons.map(({ label, value, icon }) => (
             <button
               type="button"
               key={value}
               onClick={() => handleVehicleTypeClick(label)}
-              className={`${styles.filterBtn} ${
-                vehicleType === value ? styles.active : ''
-              }`}
+              className={`${styles.filterBtn} ${vehicleType === value ? styles.active : ''}`}
             >
+              <img src={icon} alt={label} className={styles.icon} />
               {label}
             </button>
           ))}

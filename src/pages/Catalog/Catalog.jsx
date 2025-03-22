@@ -59,16 +59,21 @@ const Catalog = () => {
         ? camperType === filters.vehicleType
         : true;
 
-      const matchEquipment = filters.selectedEquipment.every((eq) =>
-        Object.keys(camper).some(
-          (key) => key.toLowerCase() === eq && camper[key] === true
-        )
-      );
+      const matchEquipment = filters.selectedEquipment.every((eq) => {
+        const eqLower = eq.toLowerCase();
+
+        if (eqLower === 'automatic') {
+          return camper.transmission?.toLowerCase() === 'automatic';
+        }
+
+        return Object.keys(camper).some(
+          (key) => key.toLowerCase() === eqLower && camper[key] === true
+        );
+      });
 
       return matchLocation && matchType && matchEquipment;
     });
 
-    // консоль
     console.log('Filtered campers:', result);
     return result;
   }, [campers, filters]);

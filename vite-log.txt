@@ -554,3 +554,11 @@ Port 5174 is in use, trying another one...
 19:57:30 [vite] (client) hmr update /src/components/Filters/Filters.jsx
 19:59:35 [vite] (client) hmr update /src/components/Filters/Filters.jsx
 20:00:40 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:07:55 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:08:23 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:11:51 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:14:56 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:15:54 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:30:54 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:31:17 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:31:52 [vite] (client) hmr update /src/components/Filters/Filters.jsx
