@@ -1,0 +1,117 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark-soft);
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.input {
+    padding: 16px 48px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: var(--gray-soft);
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: var(--dark-main);
+}
+
+.inputIcon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.sectionText {
+    margin-top: 40px;
+    color: var(--dark-muted);
+}
+
+.section {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.sectionTitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-main);
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.filterBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 112px;
+    height: 96px;
+    font-size: 16px;
+    border: 1px solid var(--gray);
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: var(--dark-main);
+    cursor: pointer;
+}
+
+.filterBtn:hover {
+    border-color: var(--accent-red);
+}
+
+.filterBtn:focus {
+    outline: none;
+}
+
+.active {
+    border-color: var(--accent-red);
+    background-color: #fdf5f4;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.searchBtn {
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 166px;
+    background-color: var(--accent-red);
+    color: white;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.searchBtn:hover {
+    background-color: var(--accent-red-hover);
+}

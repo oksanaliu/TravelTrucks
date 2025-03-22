@@ -562,3 +562,244 @@ Port 5174 is in use, trying another one...
 20:30:54 [vite] (client) hmr update /src/components/Filters/Filters.jsx
 20:31:17 [vite] (client) hmr update /src/components/Filters/Filters.jsx
 20:31:52 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:37:37 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:38:33 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:38:38 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:39:00 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:39:39 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:40:07 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:40:20 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:40:20 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:40:54 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:41:13 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:41:47 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:43:03 [vite] (client) hmr update /src/styles/global.css
+20:43:10 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+20:43:15 [vite] (client) hmr update /src/styles/global.css
+20:43:44 [vite] (client) hmr update /src/styles/global.css
+20:43:50 [vite] (client) hmr update /src/styles/global.css
+20:46:35 [vite] (client) hmr update /src/App.jsx
+20:47:21 [vite] (client) hmr update /src/App.jsx
+20:47:25 [vite] (client) page reload src/App.module.css
+20:48:21 [vite] (client) page reload src/pages/Catalog/Catalog.module.css
+20:48:32 [vite] (client) page reload src/pages/Catalog/Catalog.module.css
+20:48:48 [vite] (client) page reload src/pages/Catalog/Catalog.module.css
+20:50:44 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:51:32 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:52:37 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:52:52 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:53:51 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:54:00 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:55:16 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:56:13 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+20:59:24 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+20:59:36 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+20:59:39 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+21:00:33 [vite] (client) page reload src/features/filtersSlice.js
+21:00:35 [vite] (client) page reload src/services/api.js
+21:00:42 [vite] (client) hmr update /src/App.jsx
+21:00:47 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+21:00:52 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:02:37 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:06:13 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:06:56 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:07:50 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:08:06 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:10:00 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:10:39 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:10:45 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:11:30 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:11:46 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:12:17 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:12:41 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:12:56 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:13:32 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:14:24 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:15:08 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:15:31 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:17:44 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:18:19 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:18:24 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:19:04 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:19:53 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:20:05 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:20:19 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:20:58 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:21:22 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:21:59 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:22:15 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:22:34 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:22:59 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:23:15 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:23:45 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:24:22 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:27:35 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:27:35 [vite] Internal server error: /Users/oksanaluklan/TravelTrucks/src/components/Filters/Filters.jsx: Unterminated JSX contents. (130:11)
+
+  128 |         Search
+  129 |       </button>
+> 130 |     </form>
+      |            ^
+  131 |   );
+  132 | };
+  133 |
+  Plugin: vite:react-babel
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Filters/Filters.jsx:130:11
+  128|          Search
+  129|        </button>
+  130|      </form>
+     |             ^
+  131|    );
+  132|  };
+      at constructor (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:360:19)
+      at JSXParserMixin.raise (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:3327:19)
+      at JSXParserMixin.jsxReadToken (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6620:20)
+      at JSXParserMixin.getTokenFromCode (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6946:12)
+      at JSXParserMixin.nextToken (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:2510:10)
+      at JSXParserMixin.next (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:2423:10)
+      at JSXParserMixin.eat (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:2427:12)
+      at JSXParserMixin.expect (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:3656:15)
+      at JSXParserMixin.jsxParseClosingElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6852:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6867:37)
+      at JSXParserMixin.jsxParseElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6870:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6870:32)
+      at JSXParserMixin.jsxParseElement (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6921:17)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6931:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10759:23)
+      at JSXParserMixin.parseUpdate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10744:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10724:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10577:61)
+      at JSXParserMixin.parseExprOps (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10582:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10559:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10522:21)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10493:39
+      at JSXParserMixin.allowInAnd (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12101:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11360:28)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11007:23)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6936:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10759:23)
+      at JSXParserMixin.parseUpdate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10744:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10724:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10577:61)
+      at JSXParserMixin.parseExprOps (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10582:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10559:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10522:21)
+      at JSXParserMixin.parseExpressionBase (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10477:23)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10473:39
+      at JSXParserMixin.allowInAnd (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12096:16)
+      at JSXParserMixin.parseExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10473:17)
+      at JSXParserMixin.parseReturnStatement (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12781:28)
+      at JSXParserMixin.parseStatementContent (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12438:21)
+      at JSXParserMixin.parseStatementLike (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12407:17)
+      at JSXParserMixin.parseStatementListItem (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12387:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12955:61)
+      at JSXParserMixin.parseBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12948:10)
+      at JSXParserMixin.parseBlock (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12936:10)
+      at JSXParserMixin.parseFunctionBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11784:24)
+      at JSXParserMixin.parseArrowExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11759:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11372:12)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11007:23)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6936:20)
+21:27:46 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:27:46 [vite] Internal server error: /Users/oksanaluklan/TravelTrucks/src/components/Filters/Filters.jsx: Unterminated JSX contents. (130:11)
+
+  128 |         Search
+  129 |       </button>
+> 130 |     </form>
+      |            ^
+  131 |   );
+  132 | };
+  133 |
+  Plugin: vite:react-babel
+  File: /Users/oksanaluklan/TravelTrucks/src/components/Filters/Filters.jsx:130:11
+  128|          Search
+  129|        </button>
+  130|      </form>
+     |             ^
+  131|    );
+  132|  };
+      at constructor (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:360:19)
+      at JSXParserMixin.raise (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:3327:19)
+      at JSXParserMixin.jsxReadToken (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6620:20)
+      at JSXParserMixin.getTokenFromCode (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6946:12)
+      at JSXParserMixin.nextToken (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:2510:10)
+      at JSXParserMixin.next (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:2423:10)
+      at JSXParserMixin.eat (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:2427:12)
+      at JSXParserMixin.expect (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:3656:15)
+      at JSXParserMixin.jsxParseClosingElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6852:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6867:37)
+      at JSXParserMixin.jsxParseElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6870:32)
+      at JSXParserMixin.jsxParseElementAt (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6870:32)
+      at JSXParserMixin.jsxParseElement (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6921:17)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6931:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10759:23)
+      at JSXParserMixin.parseUpdate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10744:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10724:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10577:61)
+      at JSXParserMixin.parseExprOps (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10582:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10559:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10522:21)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10493:39
+      at JSXParserMixin.allowInAnd (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12101:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11360:28)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11007:23)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6936:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10759:23)
+      at JSXParserMixin.parseUpdate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10744:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10724:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10577:61)
+      at JSXParserMixin.parseExprOps (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10582:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10559:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10522:21)
+      at JSXParserMixin.parseExpressionBase (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10477:23)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10473:39
+      at JSXParserMixin.allowInAnd (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12096:16)
+      at JSXParserMixin.parseExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:10473:17)
+      at JSXParserMixin.parseReturnStatement (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12781:28)
+      at JSXParserMixin.parseStatementContent (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12438:21)
+      at JSXParserMixin.parseStatementLike (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12407:17)
+      at JSXParserMixin.parseStatementListItem (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12387:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12955:61)
+      at JSXParserMixin.parseBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12948:10)
+      at JSXParserMixin.parseBlock (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12936:10)
+      at JSXParserMixin.parseFunctionBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11784:24)
+      at JSXParserMixin.parseArrowExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11759:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11372:12)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:11007:23)
+      at JSXParserMixin.parseExprAtom (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:6936:20)
+21:28:27 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:29:12 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:29:34 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:29:46 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:30:20 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:31:52 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:32:00 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:34:30 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:35:04 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:35:09 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:35:31 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:36:59 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:37:34 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:39:01 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:41:34 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:41:59 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:42:21 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:42:37 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:43:47 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:44:33 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:44:48 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:46:06 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:49:50 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:50:32 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:51:08 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:52:33 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:52:46 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:58:23 [vite] (client) hmr update /src/styles/global.css
+21:58:35 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:58:39 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+21:58:43 [vite] (client) page reload src/features/campersSlice.js
+21:58:45 [vite] (client) hmr update /src/components/Footer/Footer.jsx
+21:58:50 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+21:58:53 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx

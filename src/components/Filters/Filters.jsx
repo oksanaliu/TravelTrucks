@@ -9,6 +9,7 @@ import ph_showerIcon from '../../assets/icons/ph_shower.svg';
 import bi_grid_1x2Icon from '../../assets/icons/bi_grid-1x2.svg';
 import bi_grid_3x3_gapIcon from '../../assets/icons/bi_grid-3x3-gap.svg';
 import bi_gridIcon from '../../assets/icons/bi_grid.svg';
+import Map from '../../assets/icons/Map.svg';
 
 const vehicleTypesMap = {
   Van: 'panelTruck',
@@ -75,15 +76,20 @@ const Filters = () => {
     <form className={styles.filters} onSubmit={handleSubmit}>
       <label className={styles.label}>
         Location
-        <input
-          type="text"
-          value={location}
-          onChange={(e) => setLocation(e.target.value)}
-          placeholder="Kyiv, Ukraine"
-          className={styles.input}
-        />
+        <div className={styles.inputWrapper}>
+          <img src={Map} alt="Map" className={styles.inputIcon} />
+          <input
+            type="text"
+            value={location}
+            onChange={(e) => setLocation(e.target.value)}
+            placeholder="Kyiv, Ukraine"
+            className={styles.input}
+          />
+        </div>
       </label>
-
+      <div>
+        <p className={styles.sectionText}>Filters</p>
+      </div>
       <div className={styles.section}>
         <p className={styles.sectionTitle}>Vehicle equipment</p>
         <div className={styles.options}>

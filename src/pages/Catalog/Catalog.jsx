@@ -4,6 +4,7 @@ import { fetchCampers } from '../../features/campersSlice';
 import { useSearchParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import CamperCard from '../../components/CamperCard/CamperCard';
+import styles from './Catalog.module.css';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -79,7 +80,7 @@ const Catalog = () => {
   }, [campers, filters]);
 
   return (
-    <main style={{ display: 'flex', gap: '20px' }}>
+    <main className={styles.catalogWrapper}>
       <Filters />
       <section>
         {status === 'loading' && <p>Loading...</p>}
