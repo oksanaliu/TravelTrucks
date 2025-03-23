@@ -1198,3 +1198,4 @@ Port 5174 is in use, trying another one...
 03:10:01 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
 03:10:17 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
 03:10:22 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:10:49 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
