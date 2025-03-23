@@ -1199,3 +1199,91 @@ Port 5174 is in use, trying another one...
 03:10:17 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
 03:10:22 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
 03:10:49 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:16:01 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:16:02 [vite] Internal server error: Failed to resolve import "../../assets/icons/radio.svg" from "src/components/CamperDetails/Features.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/CamperDetails/Features.jsx:10:22
+  24 |  import bathroomIcon from "../../assets/icons/ph_shower.svg";
+  25 |  import fuelIcon from "../../assets/icons/fuel-pump.svg";
+  26 |  import radioIcon from "../../assets/icons/radio.svg";
+     |                         ^
+  27 |  import refrigeratorIcon from "../../assets/icons/fridge.svg";
+  28 |  import microwaveIcon from "../../assets/icons/microwave.svg";
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 11)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+03:18:47 [vite] (client) hmr update /src/router/AppRouter.jsx
+03:19:43 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:22:22 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:22:39 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:23:55 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:24:49 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:24:49 [vite] Internal server error: Failed to resolve import "../../assets/icons/ph_gas.svg" from "src/components/CamperDetails/Features.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/CamperDetails/Features.jsx:13:20
+  27 |  import fridgeIcon from "../../assets/icons/solar_fridge-outline.svg";
+  28 |  import microwaveIcon from "../../assets/icons/lucide_microwave.svg";
+  29 |  import gasIcon from "../../assets/icons/ph_gas.svg";
+     |                       ^
+  30 |  import waterIcon from "../../assets/icons/ion_water-outline.svg";
+  31 |  const featuresConfig = [
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 14)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+03:24:57 [vite] (client) hmr update /src/router/AppRouter.jsx
+03:25:15 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:29:39 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:29:43 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:30:46 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:31:17 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:31:45 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:32:18 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:33:15 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:33:36 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:33:55 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:34:06 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:34:55 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:35:02 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:35:25 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:35:33 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:36:28 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:36:51 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:38:14 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:38:26 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:38:44 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:39:04 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:40:16 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:40:54 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:41:43 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:41:56 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:42:42 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:43:10 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:43:39 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:44:04 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:44:26 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:44:51 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:45:42 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:46:08 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:46:55 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:47:17 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:47:23 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:47:30 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:47:38 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:47:49 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:47:52 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+03:47:55 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:47:58 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
