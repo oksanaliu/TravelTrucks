@@ -58,7 +58,7 @@ const CamperCard = ({ camper }) => {
             </span>
           </div>
           <div className={styles.location}>
-            <img src={mapIcon} alt="location" />
+            <img src={mapIcon} alt="location" width="16px" height="16px" />
             <span>{camper.location}</span>
           </div>
         </div>

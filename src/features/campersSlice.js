@@ -33,8 +33,18 @@ const campersSlice = createSlice({
     camperDetails: null,
     status: 'idle',
     error: null,
+    favorites: [],
   },
-  reducers: {},
+  reducers: {
+    toggleFavorite: (state, action) => {
+      const camperId = action.payload;
+      if (state.favorites.includes(camperId)) {
+        state.favorites = state.favorites.filter((id) => id !== camperId);
+      } else {
+        state.favorites.push(camperId);
+      }
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchCampers.pending, (state) => {
@@ -55,4 +65,5 @@ const campersSlice = createSlice({
   },
 });
 
+export const { toggleFavorite } = campersSlice.actions;
 export default campersSlice.reducer;

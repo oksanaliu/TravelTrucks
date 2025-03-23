@@ -892,3 +892,126 @@ Port 5174 is in use, trying another one...
 01:13:12 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
 01:13:42 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
 01:14:09 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:16:10 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+01:16:31 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+01:18:15 [vite] (client) page reload src/features/campersSlice.js
+01:19:25 [vite] (client) page reload src/features/campersSlice.js
+01:19:55 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+01:20:11 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+01:24:25 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+01:24:26 [vite] Internal server error: Failed to resolve import "../../assets/icons/heart-outline.svg" from "src/components/AddToFavorites/AddToFavorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/AddToFavorites/AddToFavorites.jsx:5:25
+  20 |  import styles from "./AddToFavorites.module.css";
+  21 |  import heartFilled from "../../assets/icons/heart-filled.svg";
+  22 |  import heartOutline from "../../assets/icons/heart-outline.svg";
+     |                            ^
+  23 |  const AddToFavorites = ({ camperId }) => {
+  24 |    _s();
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+01:24:36 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:24:36 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:24:36 [vite] (client) Pre-transform error: Failed to resolve import "../../assets/icons/heart-filled.svg" from "src/components/AddToFavorites/AddToFavorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/AddToFavorites/AddToFavorites.jsx:4:24
+  19 |  import { toggleFavorite } from "../../features/campersSlice";
+  20 |  import styles from "./AddToFavorites.module.css";
+  21 |  import heartFilled from "../../assets/icons/heart-filled.svg";
+     |                           ^
+  22 |  import heartOutline from "../../assets/icons/heart-outline.svg";
+  23 |  const AddToFavorites = ({ camperId }) => {
+01:24:36 [vite] Internal server error: Failed to resolve import "../../assets/icons/heart-filled.svg" from "src/components/AddToFavorites/AddToFavorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/AddToFavorites/AddToFavorites.jsx:4:24
+  19 |  import { toggleFavorite } from "../../features/campersSlice";
+  20 |  import styles from "./AddToFavorites.module.css";
+  21 |  import heartFilled from "../../assets/icons/heart-filled.svg";
+     |                           ^
+  22 |  import heartOutline from "../../assets/icons/heart-outline.svg";
+  23 |  const AddToFavorites = ({ camperId }) => {
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+01:24:47 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:27:56 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:30:16 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:31:00 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+01:31:32 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:31:55 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:32:19 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:32:27 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:33:14 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:34:30 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:35:02 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:35:36 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:37:18 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:37:28 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:37:51 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:38:19 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:38:45 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:39:04 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:39:41 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:40:09 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:40:26 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:40:32 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:40:59 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:41:07 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:41:34 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:41:56 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:42:27 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:43:06 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:46:08 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:46:46 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:47:09 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:47:42 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:48:09 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:48:23 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:50:20 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:50:40 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:50:57 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:51:32 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:51:43 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:52:07 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:52:24 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:53:07 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:54:10 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:54:36 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:55:05 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:55:28 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:55:55 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:56:12 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:56:48 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:57:39 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:58:12 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:59:21 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:59:58 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+02:00:27 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+02:01:18 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+02:01:28 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+02:01:35 [vite] (client) hmr update /src/components/Filters/Filters.jsx
+02:01:48 [vite] (client) page reload src/features/campersSlice.js
+02:01:51 [vite] (client) hmr update /src/components/Footer/Footer.jsx
+02:01:51 [vite] (client) hmr update /src/components/Footer/Footer.jsx
+02:01:54 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
+02:02:00 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+02:02:07 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+02:02:10 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+02:02:14 [vite] (client) hmr update /src/components/AddToFavorites/AddToFavorites.jsx
+02:02:19 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+02:02:21 [vite] (client) hmr update /src/pages/Home/Home.jsx
