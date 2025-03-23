@@ -40,20 +40,25 @@ const CamperCard = ({ camper }) => {
       />
 
       <div className={styles.content}>
-        <div className={styles.header}>
+        <div className={styles.top}>
           <h2 className={styles.name}>{camper.name}</h2>
-          <p className={styles.price}>€{camper.price.toLocaleString()}</p>
+          <div className={styles.priceBlock}>
+            <span className={styles.price}>
+              €{camper.price.toLocaleString()}
+            </span>
+            <AddToFavorites camperId={camper.id} />
+          </div>
         </div>
 
         <div className={styles.ratingLocation}>
           <div className={styles.rating}>
-            <img src={starFilled} alt="Rating" />
+            <img src={starFilled} alt="star" />
             <span>
               {camper.rating.toFixed(1)} ({camper.reviews.length} Reviews)
             </span>
           </div>
           <div className={styles.location}>
-            <img src={mapIcon} alt="Location" />
+            <img src={mapIcon} alt="location" />
             <span>{camper.location}</span>
           </div>
         </div>
@@ -69,12 +74,9 @@ const CamperCard = ({ camper }) => {
           ))}
         </ul>
 
-        <div className={styles.footer}>
-          <Link to={`/catalog/${camper.id}`} className={styles.link}>
-            Show more
-          </Link>
-          <AddToFavorites camperId={camper.id} />
-        </div>
+        <Link to={`/catalog/${camper.id}`} className={styles.link}>
+          Show more
+        </Link>
       </div>
     </div>
   );

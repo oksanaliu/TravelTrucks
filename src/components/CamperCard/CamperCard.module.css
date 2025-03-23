@@ -1,18 +1,18 @@
 .card {
     display: flex;
-    border: 1px solid #dadde1;
-    border-radius: 20px;
     padding: 24px;
     gap: 24px;
-    background-color: white;
-    width: 888px;
+    border: 1px solid #dadde1;
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 888px;
 }
 
 .image {
     width: 290px;
     height: 310px;
-    border-radius: 10px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .content {
@@ -22,15 +22,21 @@
     justify-content: space-between;
 }
 
-.header {
+.top {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .name {
     font-size: 24px;
     font-weight: 600;
+}
+
+.priceFav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .price {
@@ -41,62 +47,54 @@
 .ratingLocation {
     display: flex;
     gap: 16px;
-    align-items: center;
     margin: 12px 0;
+    align-items: center;
 }
 
-.rating img {
-    width: 20px;
-    height: 20px;
-    margin-right: 4px;
-}
-
+.rating,
 .location {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
+    font-size: 14px;
+    color: #555;
 }
 
 .description {
-    margin: 12px 0;
     color: #555;
-    line-height: 1.4;
-    max-height: 3.2em;
+    font-size: 14px;
     overflow: hidden;
-    text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
 }
 
 .featuresList {
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .featureItem {
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: 14px;
     background-color: #f2f4f7;
     padding: 6px 10px;
     border-radius: 8px;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    font-size: 14px;
 }
 
 .link {
+    display: inline-block;
     background-color: #e44848;
     color: white;
     padding: 10px 16px;
     border-radius: 12px;
     text-decoration: none;
     font-weight: 500;
+    align-self: flex-start;
 }
