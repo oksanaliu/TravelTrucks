@@ -803,3 +803,68 @@ Port 5174 is in use, trying another one...
 21:58:45 [vite] (client) hmr update /src/components/Footer/Footer.jsx
 21:58:50 [vite] (client) hmr update /src/pages/Catalog/Catalog.jsx
 21:58:53 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+00:40:50 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:41:21 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:41:21 [vite] Internal server error: Failed to resolve import "../../assets/icons/ac.svg" from "src/pages/CamperDetails/CamperDetails.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx:7:19
+  22 |  import Gallery from "../../components/CamperDetails/Gallery";
+  23 |  import styles from "./CamperDetails.module.css";
+  24 |  import acIcon from "../../assets/icons/ac.svg";
+     |                      ^
+  25 |  import automaticIcon from "../../assets/icons/automatic.svg";
+  26 |  import kitchenIcon from "../../assets/icons/kitchen.svg";
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+00:43:47 [vite] (client) hmr update /src/router/AppRouter.jsx
+00:43:47 [vite] (client) Pre-transform error: Failed to resolve import "../../../assets/icons/cup-hot.svg" from "src/pages/CamperDetails/CamperDetails.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx:7:19
+  22 |  import Gallery from "../../components/CamperDetails/Gallery";
+  23 |  import styles from "./CamperDetails.module.css";
+  24 |  import acIcon from "../../../assets/icons/cup-hot.svg";
+     |                      ^
+  25 |  import automaticIcon from "../../../assets/icons/ui-radios.svg";
+  26 |  import kitchenIcon from "../../../assets/icons/hugeicons_gas-stove.svg";
+00:43:47 [vite] Internal server error: Failed to resolve import "../../../assets/icons/cup-hot.svg" from "src/pages/CamperDetails/CamperDetails.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx:7:19
+  22 |  import Gallery from "../../components/CamperDetails/Gallery";
+  23 |  import styles from "./CamperDetails.module.css";
+  24 |  import acIcon from "../../../assets/icons/cup-hot.svg";
+     |                      ^
+  25 |  import automaticIcon from "../../../assets/icons/ui-radios.svg";
+  26 |  import kitchenIcon from "../../../assets/icons/hugeicons_gas-stove.svg";
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+00:45:21 [vite] (client) hmr update /src/router/AppRouter.jsx
+00:47:50 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:50:29 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:51:14 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:51:25 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:51:30 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:51:30 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:52:44 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:52:46 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+00:55:27 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+00:56:05 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+00:59:09 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+00:59:32 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:01:33 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+01:01:38 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
