@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useParams, Link, Outlet } from 'react-router-dom';
+import { useParams, NavLink, Outlet } from 'react-router-dom';
 
 import { fetchCamperDetails } from '../../features/campersSlice';
 import Gallery from '../../components/CamperDetails/Gallery';
@@ -48,8 +48,22 @@ const CamperDetails = () => {
       <p className={styles.description}>{camperDetails.description}</p>
 
       <div className={styles.tabLinks}>
-        <Link to="features">Features</Link>
-        <Link to="reviews">Reviews</Link>
+        <NavLink
+          to="features"
+          className={({ isActive }) =>
+            isActive ? `${styles.tabLink} ${styles.active}` : styles.tabLink
+          }
+        >
+          Features
+        </NavLink>
+        <NavLink
+          to="reviews"
+          className={({ isActive }) =>
+            isActive ? `${styles.tabLink} ${styles.active}` : styles.tabLink
+          }
+        >
+          Reviews
+        </NavLink>
       </div>
 
       <Outlet context={camperDetails} />

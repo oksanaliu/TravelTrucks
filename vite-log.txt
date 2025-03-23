@@ -1072,3 +1072,129 @@ Port 5174 is in use, trying another one...
 02:57:24 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
 02:57:27 [vite] (client) hmr update /src/components/CamperDetails/Gallery.jsx
 02:57:29 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:01:06 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:01:38 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:01:38 [vite] Internal server error: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx: Identifier 'useParams' has already been declared. (4:18)
+
+  2 | import { useDispatch, useSelector } from 'react-redux';
+  3 | import { useParams, Link, Outlet } from 'react-router-dom';
+> 4 | import { NavLink, useParams, Outlet } from 'react-router-dom';
+    |                   ^
+  5 | import { fetchCamperDetails } from '../../features/campersSlice';
+  6 | import Gallery from '../../components/CamperDetails/Gallery';
+  7 | import styles from './CamperDetails.module.css';
+  Plugin: vite:react-babel
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx:4:18
+  2  |  import { useDispatch, useSelector } from 'react-redux';
+  3  |  import { useParams, Link, Outlet } from 'react-router-dom';
+  4  |  import { NavLink, useParams, Outlet } from 'react-router-dom';
+     |                    ^
+  5  |  import { fetchCamperDetails } from '../../features/campersSlice';
+  6  |  import Gallery from '../../components/CamperDetails/Gallery';
+      at constructor (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:360:19)
+      at JSXParserMixin.raise (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:3327:19)
+      at ScopeHandler.checkRedeclarationInScope (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:1555:19)
+      at ScopeHandler.declareName (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:1521:12)
+      at JSXParserMixin.declareNameFromIdentifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:7480:16)
+      at JSXParserMixin.checkIdentifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:7476:12)
+      at JSXParserMixin.checkLVal (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:7417:12)
+      at JSXParserMixin.finishImportSpecifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:13901:10)
+      at JSXParserMixin.parseImportSpecifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14057:17)
+      at JSXParserMixin.parseNamedImportSpecifiers (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14036:36)
+      at JSXParserMixin.parseImportSpecifiersAndAfter (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:13877:37)
+      at JSXParserMixin.parseImport (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:13870:17)
+      at JSXParserMixin.parseStatementContent (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12515:27)
+      at JSXParserMixin.parseStatementLike (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12407:17)
+      at JSXParserMixin.parseModuleItem (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12384:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12955:36)
+      at JSXParserMixin.parseBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12948:10)
+      at JSXParserMixin.parseProgram (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12281:10)
+      at JSXParserMixin.parseTopLevel (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12271:25)
+      at JSXParserMixin.parse (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14123:10)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14157:38)
+      at parser (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:261:32)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:223:11)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:189:28
+      at /Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:113:33
+      at step (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:287:14)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:223:11)
+03:02:23 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:02:23 [vite] Internal server error: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx: Identifier 'useParams' has already been declared. (4:18)
+
+  2 | import { useDispatch, useSelector } from 'react-redux';
+  3 | import { useParams, Link, Outlet } from 'react-router-dom';
+> 4 | import { NavLink, useParams, Outlet } from 'react-router-dom';
+    |                   ^
+  5 | import { fetchCamperDetails } from '../../features/campersSlice';
+  6 | import Gallery from '../../components/CamperDetails/Gallery';
+  7 | import styles from './CamperDetails.module.css';
+  Plugin: vite:react-babel
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/CamperDetails/CamperDetails.jsx:4:18
+  2  |  import { useDispatch, useSelector } from 'react-redux';
+  3  |  import { useParams, Link, Outlet } from 'react-router-dom';
+  4  |  import { NavLink, useParams, Outlet } from 'react-router-dom';
+     |                    ^
+  5  |  import { fetchCamperDetails } from '../../features/campersSlice';
+  6  |  import Gallery from '../../components/CamperDetails/Gallery';
+      at constructor (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:360:19)
+      at JSXParserMixin.raise (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:3327:19)
+      at ScopeHandler.checkRedeclarationInScope (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:1555:19)
+      at ScopeHandler.declareName (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:1521:12)
+      at JSXParserMixin.declareNameFromIdentifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:7480:16)
+      at JSXParserMixin.checkIdentifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:7476:12)
+      at JSXParserMixin.checkLVal (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:7417:12)
+      at JSXParserMixin.finishImportSpecifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:13901:10)
+      at JSXParserMixin.parseImportSpecifier (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14057:17)
+      at JSXParserMixin.parseNamedImportSpecifiers (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14036:36)
+      at JSXParserMixin.parseImportSpecifiersAndAfter (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:13877:37)
+      at JSXParserMixin.parseImport (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:13870:17)
+      at JSXParserMixin.parseStatementContent (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12515:27)
+      at JSXParserMixin.parseStatementLike (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12407:17)
+      at JSXParserMixin.parseModuleItem (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12384:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12955:36)
+      at JSXParserMixin.parseBlockBody (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12948:10)
+      at JSXParserMixin.parseProgram (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12281:10)
+      at JSXParserMixin.parseTopLevel (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:12271:25)
+      at JSXParserMixin.parse (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14123:10)
+      at parse (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/parser/lib/index.js:14157:38)
+      at parser (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:261:32)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:223:11)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:189:28
+      at /Users/oksanaluklan/TravelTrucks/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:113:33
+      at step (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:287:14)
+      at /Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/oksanaluklan/TravelTrucks/node_modules/gensync/index.js:223:11)
+03:02:35 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:04:27 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:05:10 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:06:08 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:06:33 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:07:28 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:08:07 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:08:22 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:08:47 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:09:23 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:10:01 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:10:17 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+03:10:22 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
