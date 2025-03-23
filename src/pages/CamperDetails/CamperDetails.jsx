@@ -6,11 +6,8 @@ import { fetchCamperDetails } from '../../features/campersSlice';
 import Gallery from '../../components/CamperDetails/Gallery';
 import styles from './CamperDetails.module.css';
 
-import acIcon from '../../assets/icons/cup-hot.svg';
-import automaticIcon from '../../assets/icons/ui-radios.svg';
-import kitchenIcon from '../../assets/icons/hugeicons_gas-stove.svg';
-import tvIcon from '../../assets/icons/tv.svg';
-import bathroomIcon from '../../assets/icons/ph_shower.svg';
+import starIcon from '../../assets/icons/star-filled.svg';
+import mapIcon from '../../assets/icons/Map.svg';
 
 const CamperDetails = () => {
   const { id } = useParams();
@@ -26,46 +23,29 @@ const CamperDetails = () => {
   if (status === 'loading') return <p>Loading...</p>;
   if (!camperDetails || !camperDetails.name) return <p>Camper not found</p>;
 
-  const features = [
-    { label: 'AC', icon: acIcon, available: camperDetails.ac },
-    {
-      label: 'Automatic',
-      icon: automaticIcon,
-      available: camperDetails.transmission?.toLowerCase() === 'automatic',
-    },
-    { label: 'Kitchen', icon: kitchenIcon, available: camperDetails.kitchen },
-    { label: 'TV', icon: tvIcon, available: camperDetails.tv },
-    {
-      label: 'Bathroom',
-      icon: bathroomIcon,
-      available: camperDetails.bathroom,
-    },
-  ];
-
   return (
     <div className={styles.detailsPage}>
       <h1 className={styles.title}>{camperDetails.name}</h1>
 
+      <div className={styles.metaInfo}>
+        <div className={styles.rating}>
+          <img src={starIcon} alt="Rating" />
+          <span>{camperDetails.rating.toFixed(1)}&nbsp;</span>
+          <span className={styles.reviews}>
+            ({camperDetails.reviews.length} Reviews)
+          </span>
+        </div>
+        <div className={styles.location}>
+          <img src={mapIcon} alt="Location" />
+          <span>{camperDetails.location}</span>
+        </div>
+      </div>
+
+      <p className={styles.price}>€{camperDetails.price.toLocaleString()}</p>
+
       <Gallery images={camperDetails.gallery} />
 
-      <div className={styles.features}>
-        <h2 className={styles.subtitle}>Vehicle Features</h2>
-        <ul className={styles.featuresList}>
-          {features.map(
-            (feature) =>
-              feature.available && (
-                <li key={feature.label} className={styles.featureItem}>
-                  <img
-                    src={feature.icon}
-                    alt={feature.label}
-                    className={styles.featureIcon}
-                  />
-                  <span className={styles.featureText}>{feature.label}</span>
-                </li>
-              )
-          )}
-        </ul>
-      </div>
+      <p className={styles.description}>{camperDetails.description}</p>
 
       <div className={styles.tabLinks}>
         <Link to="features">Features</Link>
