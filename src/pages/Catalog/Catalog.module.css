@@ -3,3 +3,20 @@
     margin: 48px 64px;
     gap: 64px;
 }
+
+.loadMoreBtn {
+    margin: 40px auto 0;
+    display: block;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid var(--gray);
+    border-radius: 200px;
+    color: var(--dark-main);
+    cursor: pointer;
+}
+
+.loadMoreBtn:hover {
+    border-color: var(--accent-red-hover);
+}
