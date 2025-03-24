@@ -63,8 +63,20 @@ const campersSlice = createSlice({
         state.status = 'failed';
         state.error = action.payload;
       })
+
+      .addCase(fetchCamperDetails.pending, (state) => {
+        state.status = 'loading';
+        state.error = null;
+        state.camperDetails = null;
+      })
       .addCase(fetchCamperDetails.fulfilled, (state, action) => {
+        state.status = 'succeeded';
         state.camperDetails = action.payload;
+      })
+      .addCase(fetchCamperDetails.rejected, (state, action) => {
+        state.status = 'failed';
+        state.error = action.payload;
+        state.camperDetails = null;
       });
   },
 });

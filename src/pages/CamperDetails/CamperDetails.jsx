@@ -5,7 +5,7 @@ import { useParams, NavLink, Outlet } from 'react-router-dom';
 import { fetchCamperDetails } from '../../features/campersSlice';
 import Gallery from '../../components/CamperDetails/Gallery';
 import styles from './CamperDetails.module.css';
-
+import Loader from '../../components/Loader/Loader';
 import starIcon from '../../assets/icons/star-filled.svg';
 import mapIcon from '../../assets/icons/Map.svg';
 
@@ -20,9 +20,17 @@ const CamperDetails = () => {
     }
   }, [dispatch, id]);
 
-  if (status === 'loading') return <p>Loading...</p>;
-  if (!camperDetails || !camperDetails.name) return <p>Camper not found</p>;
+  if (status === 'loading' || status === 'idle') {
+    return <Loader />;
+  }
 
+  if (status === 'failed') {
+    return <p>Failed to load camper data. Please try again later.</p>;
+  }
+
+  if (status === 'succeeded' && (!camperDetails || !camperDetails.name)) {
+    return <p>Camper not found</p>;
+  }
   return (
     <div className={styles.detailsPage}>
       <h1 className={styles.title}>{camperDetails.name}</h1>

@@ -5,6 +5,7 @@ import { useSearchParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import CamperCard from '../../components/CamperCard/CamperCard';
 import styles from './Catalog.module.css';
+import Loader from '../../components/Loader/Loader';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -69,8 +70,8 @@ const Catalog = () => {
   return (
     <main className={styles.catalogWrapper}>
       <Filters />
-      <section>
-        {status === 'loading' && <p>Loading...</p>}
+      <section className={styles.resultsSection}>
+        {status === 'loading' && <Loader />}
         {status === 'failed' && <p>Error loading campers: {error}</p>}
         {status === 'succeeded' && filteredCampers.length === 0 ? (
           <p>No campers found matching the selected filters.</p>
