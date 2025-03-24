@@ -13,7 +13,9 @@ const BookingSchema = Yup.object().shape({
     .max(50, 'Too long')
     .required('Name is required'),
   email: Yup.string().email('Invalid email').required('Email is required'),
-  date: Yup.date().required('Booking date is required'),
+  date: Yup.date()
+    .required('Booking date is required')
+    .min(new Date(), 'You cannot choose a past date'),
   comment: Yup.string()
     .min(10, 'Comment too short')
     .max(300, 'Comment too long'),
@@ -83,6 +85,7 @@ const BookingForm = () => {
               onChange={(date) => setFieldValue('date', date)}
               placeholderText="Select a date"
               dateFormat="dd.MM.yyyy"
+              minDate={new Date()}
               className={styles.input}
             />
             <ErrorMessage
