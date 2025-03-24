@@ -87,16 +87,3 @@
 .active::after {
     width: 100%;
 }
-
-.detailsLayout {
-    display: flex;
-    gap: 40px;
-}
-
-.leftSide {
-    width: 50%;
-}
-
-.rightSide {
-    width: 50%;
-}

@@ -1,9 +1,10 @@
+import { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import styles from './BookingForm.module.css';
-import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const BookingSchema = Yup.object().shape({
   name: Yup.string()
@@ -19,7 +20,7 @@ const BookingSchema = Yup.object().shape({
 });
 
 const BookingForm = () => {
-  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   return (
     <div className={styles.formContainer}>
@@ -29,43 +30,59 @@ const BookingForm = () => {
       </p>
 
       <Formik
-        initialValues={{
-          name: '',
-          email: '',
-          date: null,
-          comment: '',
-        }}
+        initialValues={{ name: '', email: '', date: null, comment: '' }}
         validationSchema={BookingSchema}
         onSubmit={(values, actions) => {
-          console.log('Form data:', values);
-          setSubmitted(true);
-          actions.resetForm();
+          setLoading(true);
+
+          setTimeout(() => {
+            const bookings = JSON.parse(localStorage.getItem('bookings')) || [];
+            const isDuplicate = bookings.some(
+              (b) => b.email.toLowerCase() === values.email.toLowerCase()
+            );
+
+            if (isDuplicate) {
+              toast.error('This email has already been used for booking.');
+              setLoading(false);
+              return;
+            }
+
+            localStorage.setItem(
+              'bookings',
+              JSON.stringify([...bookings, values])
+            );
+            toast.success('Booking submitted successfully!');
+            actions.resetForm();
+            setLoading(false);
+          }, 1000);
         }}
       >
         {({ setFieldValue, values }) => (
           <Form className={styles.form}>
-            <label className={styles.label}>Name*</label>
-            <Field name="name" className={styles.input} />
+            <Field name="name" className={styles.input} placeholder="Name" />
             <ErrorMessage
               name="name"
               component="div"
               className={styles.error}
             />
 
-            <label className={styles.label}>Email*</label>
-            <Field name="email" type="email" className={styles.input} />
+            <Field
+              name="email"
+              type="email"
+              className={styles.input}
+              placeholder="Email"
+            />
             <ErrorMessage
               name="email"
               component="div"
               className={styles.error}
             />
 
-            <label className={styles.label}>Booking date*</label>
             <DatePicker
               selected={values.date}
               onChange={(date) => setFieldValue('date', date)}
-              dateFormat="dd.MM.yyyy"
               placeholderText="Select a date"
+              dateFormat="dd.MM.yyyy"
               className={styles.input}
             />
             <ErrorMessage
@@ -74,12 +91,12 @@ const BookingForm = () => {
               className={styles.error}
             />
 
-            <label className={styles.label}>Comment</label>
             <Field
               name="comment"
               as="textarea"
               rows="4"
               className={styles.textarea}
+              placeholder="Comment"
             />
             <ErrorMessage
               name="comment"
@@ -87,13 +104,13 @@ const BookingForm = () => {
               className={styles.error}
             />
 
-            <button type="submit" className={styles.submitButton}>
-              Send
+            <button
+              type="submit"
+              className={styles.submitButton}
+              disabled={loading}
+            >
+              {loading ? 'Sending...' : 'Send'}
             </button>
-
-            {submitted && (
-              <p className={styles.success}>Form submitted successfully!</p>
-            )}
           </Form>
         )}
       </Formik>

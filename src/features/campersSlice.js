@@ -6,7 +6,6 @@ export const fetchCampers = createAsyncThunk(
   async (_, thunkAPI) => {
     try {
       const data = await getCampers();
-      console.log('>>> fetchCampers thunk data:', data); // консоль
       return data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);
@@ -26,6 +25,8 @@ export const fetchCamperDetails = createAsyncThunk(
   }
 );
 
+const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
 const campersSlice = createSlice({
   name: 'campers',
   initialState: {
@@ -33,16 +34,19 @@ const campersSlice = createSlice({
     camperDetails: null,
     status: 'idle',
     error: null,
-    favorites: [],
+    favorites: storedFavorites,
   },
   reducers: {
     toggleFavorite: (state, action) => {
       const camperId = action.payload;
+
       if (state.favorites.includes(camperId)) {
         state.favorites = state.favorites.filter((id) => id !== camperId);
       } else {
         state.favorites.push(camperId);
       }
+
+      localStorage.setItem('favorites', JSON.stringify(state.favorites));
     },
   },
   extraReducers: (builder) => {

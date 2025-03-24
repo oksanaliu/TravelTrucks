@@ -1,4 +1,5 @@
 import { useOutletContext } from 'react-router-dom';
+import BookingForm from '../../components/BookingForm/BookingForm';
 import styles from './Features.module.css';
 
 import acIcon from '../../assets/icons/cup-hot.svg';
@@ -41,51 +42,52 @@ const Features = () => {
   });
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.detailsLayout}>
       <div className={styles.leftColumn}>
-        <ul className={styles.featuresList}>
-          {activeFeatures.map((feature) => (
-            <li key={feature.label} className={styles.featureItem}>
-              <img src={feature.icon} alt={feature.label} />
-              <span>{feature.label}</span>
-            </li>
-          ))}
-        </ul>
-        <p className={styles.text}>Vehicle details</p>
-        <hr className={styles.divider} />
-
-        <table className={styles.table}>
-          <tbody>
-            <tr>
-              <td>Form</td>
-              <td>{camper.form}</td>
-            </tr>
-            <tr>
-              <td>Length</td>
-              <td>{camper.length}</td>
-            </tr>
-            <tr>
-              <td>Width</td>
-              <td>{camper.width}</td>
-            </tr>
-            <tr>
-              <td>Height</td>
-              <td>{camper.height}</td>
-            </tr>
-            <tr>
-              <td>Tank</td>
-              <td>{camper.tank}</td>
-            </tr>
-            <tr>
-              <td>Consumption</td>
-              <td>{camper.consumption}</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className={styles.wrapper}>
+          <ul className={styles.featuresList}>
+            {activeFeatures.map((feature) => (
+              <li key={feature.label} className={styles.featureItem}>
+                <img src={feature.icon} alt={feature.label} />
+                <span>{feature.label}</span>
+              </li>
+            ))}
+          </ul>
+          <p className={styles.text}>Vehicle details</p>
+          <hr className={styles.divider} />
+          <table className={styles.table}>
+            <tbody>
+              <tr>
+                <td>Form</td>
+                <td>{camper.form}</td>
+              </tr>
+              <tr>
+                <td>Length</td>
+                <td>{camper.length}</td>
+              </tr>
+              <tr>
+                <td>Width</td>
+                <td>{camper.width}</td>
+              </tr>
+              <tr>
+                <td>Height</td>
+                <td>{camper.height}</td>
+              </tr>
+              <tr>
+                <td>Tank</td>
+                <td>{camper.tank}</td>
+              </tr>
+              <tr>
+                <td>Consumption</td>
+                <td>{camper.consumption}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div className={styles.rightColumn}>
-        {/* Порожній контейнер під майбутню форму */}
+        <BookingForm />
       </div>
     </div>
   );

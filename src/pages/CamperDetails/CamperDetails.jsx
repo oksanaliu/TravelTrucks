@@ -4,7 +4,6 @@ import { useParams, NavLink, Outlet } from 'react-router-dom';
 
 import { fetchCamperDetails } from '../../features/campersSlice';
 import Gallery from '../../components/CamperDetails/Gallery';
-import BookingForm from '../../components/BookingForm/BookingForm';
 import styles from './CamperDetails.module.css';
 
 import starIcon from '../../assets/icons/star-filled.svg';
@@ -67,13 +66,9 @@ const CamperDetails = () => {
         </NavLink>
       </div>
 
-      {/* Головна розмітка в дві колонки */}
       <div className={styles.detailsLayout}>
         <div className={styles.leftSide}>
           <Outlet context={camperDetails} />
-        </div>
-        <div className={styles.rightSide}>
-          <BookingForm />
         </div>
       </div>
     </div>

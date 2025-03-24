@@ -1334,3 +1334,260 @@ Port 5174 is in use, trying another one...
 17:15:05 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
 17:15:18 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
 17:15:31 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+17:32:59 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+17:32:59 [vite] Internal server error: Failed to resolve import "react-toastify" from "src/components/BookingForm/BookingForm.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/BookingForm/BookingForm.jsx:8:22
+  23 |  import styles from "./BookingForm.module.css";
+  24 |  import axios from "axios";
+  25 |  import { toast } from "react-toastify";
+     |                         ^
+  26 |  import "react-toastify/dist/ReactToastify.css";
+  27 |  const BookingSchema = Yup.object().shape({
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 10)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+17:32:59 [vite] Internal server error: Failed to resolve import "react-toastify" from "src/components/BookingForm/BookingForm.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/components/BookingForm/BookingForm.jsx:8:22
+  23 |  import styles from "./BookingForm.module.css";
+  24 |  import axios from "axios";
+  25 |  import { toast } from "react-toastify";
+     |                         ^
+  26 |  import "react-toastify/dist/ReactToastify.css";
+  27 |  const BookingSchema = Yup.object().shape({
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 10)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+17:34:08 [vite] (client) hmr update /src/App.jsx
+17:34:08 [vite] (client) ✨ new dependencies optimized: react-toastify
+17:34:08 [vite] (client) ✨ optimized dependencies changed. reloading
+17:34:36 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+17:35:21 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+17:38:51 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+17:40:20 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+17:40:58 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+17:42:08 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+17:42:30 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+17:42:37 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+17:43:24 [vite] (client) hmr update /src/components/CamperDetails/Reviews.jsx
+17:44:23 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+17:45:27 [vite] (client) hmr update /src/components/CamperDetails/Reviews.jsx
+17:49:16 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+17:49:27 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+17:50:11 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+17:55:39 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+17:56:48 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+18:01:29 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+18:01:59 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+18:02:04 [vite] (client) hmr update /src/components/CamperDetails/Features.jsx
+18:13:56 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:16:28 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:16:31 [vite] (client) hmr update /src/components/CamperCard/CamperCard.jsx
+18:16:43 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+18:16:58 [vite] (client) hmr update /src/pages/CamperDetails/CamperDetails.jsx
+18:17:29 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:17:38 [vite] (client) hmr update /src/App.jsx
+18:18:19 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:18:36 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:19:23 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:19:43 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:20:12 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:20:25 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:20:33 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:20:53 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:21:08 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:22:03 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:22:17 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:22:42 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:22:55 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:23:25 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:24:32 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:25:26 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:25:49 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:26:07 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:26:55 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:28:01 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:28:30 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:29:07 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:29:14 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:29:28 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:29:53 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:34:05 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:34:28 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:34:43 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:34:51 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:36:20 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:36:34 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:36:41 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:36:55 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:37:19 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:37:47 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:37:59 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:38:18 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:38:27 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:38:43 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:43:03 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:43:09 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:43:16 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:45:20 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:45:37 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:45:44 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+18:47:58 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:41:36 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:44:40 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:44:45 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:45:14 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:46:28 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:47:18 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:47:23 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:47:58 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:49:12 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:49:32 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:49:55 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:49:59 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:50:02 [vite] (client) hmr update /src/components/BookingForm/BookingForm.jsx
+10:57:17 [vite] (client) page reload src/features/favoritesSlice.js
+10:57:33 [vite] (client) page reload src/features/favoritesSlice.js
+11:00:11 [vite] (client) hmr update /src/pages/Favorites/Favorites.jsx
+11:00:11 [vite] Internal server error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:00:11 [vite] Internal server error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:00:54 [vite] (client) page reload src/features/campersSlice.js
+11:00:55 [vite] (client) Pre-transform error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+11:00:55 [vite] Internal server error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:00:55 [vite] Internal server error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:01:49 [vite] (client) page reload src/features/campersSlice.js
+11:01:50 [vite] (client) Pre-transform error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+11:01:50 [vite] Internal server error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:01:50 [vite] Internal server error: Failed to resolve import "../services/api" from "src/pages/Favorites/Favorites.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/oksanaluklan/TravelTrucks/src/pages/Favorites/Favorites.jsx:2:42
+  1  |  import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+  2  |  import { getCampers, getCamperById } from "../services/api";
+     |                                             ^
+  3  |  export const fetchCampers = createAsyncThunk(
+  4  |    "campers/fetchCampers",
+      at TransformPluginContext._formatLog (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47854:41)
+      at TransformPluginContext.error (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47851:16)
+      at normalizeUrl (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:45985:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46104:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:46031:7)
+      at async EnvironmentPluginContainer.transform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:47649:18)
+      at async loadAndTransform (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:41320:27)
+      at async viteTransformMiddleware (file:///Users/oksanaluklan/TravelTrucks/node_modules/vite/dist/node/chunks/dep-B0fRCRkQ.js:42783:24)
+11:02:32 [vite] (client) hmr update /src/router/AppRouter.jsx
