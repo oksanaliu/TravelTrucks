@@ -42,8 +42,9 @@
 .error {
     color: var(--accent-red);
     font-size: 14px;
-    margin-top: -12px;
-    margin-bottom: 12px;
+    margin: -12px 10px 12px 10px;
+
+
 }
 
 .submitButton {
