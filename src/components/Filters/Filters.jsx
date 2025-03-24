@@ -2,8 +2,8 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styles from './Filters.module.css';
 import cup_hotIcon from '../../assets/icons/cup-hot.svg';
-import ui_radiosIcon from '../../assets/icons/ui-radios.svg';
-import hugeicons_gas_stoveIcon from '../../assets/icons/hugeicons_gas-stove.svg';
+import windIcon from '../../assets/icons/wind.svg';
+import diagramIcon from '../../assets/icons/diagram.svg';
 import tvIcon from '../../assets/icons/tv.svg';
 import ph_showerIcon from '../../assets/icons/ph_shower.svg';
 import bi_grid_1x2Icon from '../../assets/icons/bi_grid-1x2.svg';
@@ -55,9 +55,9 @@ const Filters = () => {
   };
 
   const equipmentButtons = [
-    { label: 'AC', icon: cup_hotIcon },
-    { label: 'Automatic', icon: ui_radiosIcon },
-    { label: 'Kitchen', icon: hugeicons_gas_stoveIcon },
+    { label: 'AC', icon: windIcon },
+    { label: 'Automatic', icon: diagramIcon },
+    { label: 'Kitchen', icon: cup_hotIcon },
     { label: 'TV', icon: tvIcon },
     { label: 'Bathroom', icon: ph_showerIcon },
   ];
@@ -67,9 +67,9 @@ const Filters = () => {
     {
       label: 'Fully Integrated',
       value: 'fullyIntegrated',
-      icon: bi_grid_3x3_gapIcon,
+      icon: bi_gridIcon,
     },
-    { label: 'Alcove', value: 'alcove', icon: bi_gridIcon },
+    { label: 'Alcove', value: 'alcove', icon: bi_grid_3x3_gapIcon },
   ];
 
   return (

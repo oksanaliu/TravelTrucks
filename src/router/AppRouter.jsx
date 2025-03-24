@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home/Home';
 import Catalog from '../pages/Catalog/Catalog';
 import CamperDetails from '../pages/CamperDetails/CamperDetails';
-import Favorites from '../pages/Favorites/Favorites';
 import Features from '../components/CamperDetails/Features';
 import Reviews from '../components/CamperDetails/Reviews';
 
@@ -15,7 +14,6 @@ const AppRouter = () => {
         <Route path="features" element={<Features />} />
         <Route path="reviews" element={<Reviews />} />
       </Route>
-      <Route path="/favorites" element={<Favorites />} />
     </Routes>
   );
 };

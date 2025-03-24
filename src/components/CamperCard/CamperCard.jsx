@@ -4,9 +4,9 @@ import styles from './CamperCard.module.css';
 
 import starFilled from '../../assets/icons/star-filled.svg';
 import mapIcon from '../../assets/icons/Map.svg';
-import acIcon from '../../assets/icons/cup-hot.svg';
-import automaticIcon from '../../assets/icons/ui-radios.svg';
-import kitchenIcon from '../../assets/icons/hugeicons_gas-stove.svg';
+import kitchenIcon from '../../assets/icons/cup-hot.svg';
+import acIcon from '../../assets/icons/wind.svg';
+import automaticIcon from '../../assets/icons/diagram.svg';
 import tvIcon from '../../assets/icons/tv.svg';
 import bathroomIcon from '../../assets/icons/ph_shower.svg';
 import fuelIcon from '../../assets/icons/fuel-pump.svg';

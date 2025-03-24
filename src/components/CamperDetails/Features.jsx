@@ -2,16 +2,16 @@ import { useOutletContext } from 'react-router-dom';
 import BookingForm from '../../components/BookingForm/BookingForm';
 import styles from './Features.module.css';
 
-import acIcon from '../../assets/icons/cup-hot.svg';
-import automaticIcon from '../../assets/icons/ui-radios.svg';
-import kitchenIcon from '../../assets/icons/hugeicons_gas-stove.svg';
+import kitchenIcon from '../../assets/icons/cup-hot.svg';
+import radioIcon from '../../assets/icons/ui-radios.svg';
+import gasIcon from '../../assets/icons/hugeicons_gas-stove.svg';
 import tvIcon from '../../assets/icons/tv.svg';
 import bathroomIcon from '../../assets/icons/ph_shower.svg';
 import fuelIcon from '../../assets/icons/fuel-pump.svg';
-import radioIcon from '../../assets/icons/diagram.svg';
+import automaticIcon from '../../assets/icons/diagram.svg';
 import fridgeIcon from '../../assets/icons/solar_fridge-outline.svg';
 import microwaveIcon from '../../assets/icons/lucide_microwave.svg';
-import gasIcon from '../../assets/icons/wind.svg';
+import acIcon from '../../assets/icons/wind.svg';
 import waterIcon from '../../assets/icons/ion_water-outline.svg';
 
 const allFeatures = [

@@ -9,7 +9,7 @@ import styles from './Catalog.module.css';
 const Catalog = () => {
   const dispatch = useDispatch();
   const [searchParams] = useSearchParams();
-  const [visibleCount, setVisibleCount] = useState(4); // показати спочатку 4
+  const [visibleCount, setVisibleCount] = useState(4);
 
   const campers = useSelector((state) => state.campers.campers);
   const status = useSelector((state) => state.campers.status);
@@ -73,7 +73,7 @@ const Catalog = () => {
         {status === 'loading' && <p>Loading...</p>}
         {status === 'failed' && <p>Error loading campers: {error}</p>}
         {status === 'succeeded' && filteredCampers.length === 0 ? (
-          <p>За обраними фільтрами не знайдено жодного кемпера.</p>
+          <p>No campers found matching the selected filters.</p>
         ) : (
           <>
             {visibleCampers.map((camper) => (

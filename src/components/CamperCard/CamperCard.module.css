@@ -98,6 +98,12 @@
     color: var(--dark-main);
 }
 
+.featureItem img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
 .link {
     display: inline-block;
     background-color: var(--accent-red);
